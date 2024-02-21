@@ -61,7 +61,7 @@
     <Compile Include="Assets\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs" />
     <Compile Include="Assets\Script\Inven\Boxinven.cs" />
     <Compile Include="Assets\Script\Inven\Slot.cs" />
-    <Compile Include="Assets\Script\Stat.cs" />
+    <Compile Include="Assets\Script\Player\Stat.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\CGHolder.cs" />
     <Compile Include="Assets\Script\Inven\Inven.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\ProximityActivate.cs" />
@@ -74,12 +74,12 @@
     <Compile Include="Assets\Script\UI\DamageDisplay.cs" />
     <Compile Include="Assets\Script\UI\StatUI.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\SoftEffects.cs" />
-    <Compile Include="Assets\Script\Store.cs" />
+    <Compile Include="Assets\Script\Player\Store.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\GameFrameWork\Assets\ARPG Effects\Scripts\ARPGFXLightFade.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\Styles.cs" />
-    <Compile Include="Assets\Script\Magic.cs" />
-    <Compile Include="Assets\Script\cam.cs" />
+    <Compile Include="Assets\Script\Player\Magic.cs" />
+    <Compile Include="Assets\Script\Camara\cam.cs" />
     <Compile Include="Assets\GameFrameWork\Assets\ARPG Effects\Demo\Scripts\ARPGSceneSelect.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCameraController.cs" />
     <Compile Include="Assets\AOSFogWar\Examples\csFogVisibilityAgent.cs" />
@@ -93,7 +93,7 @@
     <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Scripts\SimpleCharacterMotor.cs" />
     <Compile Include="Assets\Script\Monster\MonStat.cs" />
     <Compile Include="Assets\GameFrameWork\Assets\ARPG Effects\Scripts\ARPGFXRotation.cs" />
-    <Compile Include="Assets\Script\Teleport.cs" />
+    <Compile Include="Assets\Script\UI\Teleport.cs" />
     <Compile Include="Assets\AOSFogWar\Moblie.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\GPUWorker.cs" />
@@ -118,14 +118,14 @@
     <Compile Include="Assets\Script\UI\Billboard.cs" />
     <Compile Include="Assets\GameFrameWork\Assets\ARPG Effects\Scripts\ARPGFXPortalScript.cs" />
     <Compile Include="Assets\AOSFogWar\Demo\Scripts\csEyeController.cs" />
-    <Compile Include="Assets\Script\MainCam.cs" />
+    <Compile Include="Assets\Script\Camara\MainCam.cs" />
     <Compile Include="Assets\Plugin\PluginManager.cs" />
     <Compile Include="Assets\UnityTechnologies\ParticlePack\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
-    <Compile Include="Assets\Script\PlayerInput.cs" />
+    <Compile Include="Assets\Script\Player\PlayerInput.cs" />
     <Compile Include="Assets\SoftEffects\Scripts\SoftEffectsFont.cs" />
     <Compile Include="Assets\Script\Inven\DragSlot.cs" />
-    <Compile Include="Assets\Script\Auido.cs" />
-    <Compile Include="Assets\Script\Setting.cs" />
+    <Compile Include="Assets\Script\UI\Auido.cs" />
+    <Compile Include="Assets\Script\UI\Setting.cs" />
     <Compile Include="Assets\Script\Inven\boxSlot.cs" />
     <Compile Include="Assets\Script\SoundManager.cs" />
   </ItemGroup>
