@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 328a5986d1492664a87912f6cfb0e24b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - HPstatbar: {instanceID: 0}
+  - MPstatbar: {instanceID: 0}
+  - EXPstatbar: {instanceID: 0}
+  - itemManager: {instanceID: 0}
+  - prefabBox: {fileID: 3769508257426173927, guid: 34f4b877cb4a87d4cbcbc63a9e32cd4e, type: 3}
+  - player: {fileID: 8958316945389321333, guid: 9d6260cf9f0487541bbf7c246711c117, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

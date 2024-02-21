@@ -1,0 +1,373 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+59170
+Successfully changed project path to: C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [26300] Host "[IP] 192.168.1.118 [Port] 0 [Flags] 2 [Guid] 1169469425 [EditorId] 1169469425 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4UNEB7C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [26300] Host "[IP] 192.168.1.118 [Port] 0 [Flags] 2 [Guid] 1169469425 [EditorId] 1169469425 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4UNEB7C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 82.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Documents/Unity3D/GameFrameWork/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56912
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014878 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.679 seconds
+Domain Reload Profiling:
+	ReloadAssembly (679ms)
+		BeginReloadAssembly (115ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (449ms)
+			LoadAssemblies (110ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (108ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (260ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (112ms)
+				ProcessInitializeOnLoadMethodAttributes (52ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009907 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 78.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.356 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1357ms)
+		BeginReloadAssembly (144ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1092ms)
+			LoadAssemblies (135ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (363ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (490ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (79ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (65ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3609 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (10.8 MB). Loaded Objects now: 4007.
+Memory consumption went from 163.4 MB to 152.6 MB.
+Total: 7.771600 ms (FindLiveObjects: 0.283400 ms CreateObjectMapping: 0.179400 ms MarkObjects: 2.380000 ms  DeleteObjects: 4.928100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 458027.514047 seconds.
+  path: Assets/Prefabs/GreateSword_UnityChan_Weapon.prefab
+  artifactKey: Guid(ed8a41b2d9807e84ebb7a05e2b738a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GreateSword_UnityChan_Weapon.prefab using Guid(ed8a41b2d9807e84ebb7a05e2b738a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd746c36d79825dc06dacaf624924030') in 0.358715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1069.983581 seconds.
+  path: Assets/ARPG Effects/Demo/ARPG PostProcess (Standard).asset
+  artifactKey: Guid(530005d61b024be46951e96056fb0bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Demo/ARPG PostProcess (Standard).asset using Guid(530005d61b024be46951e96056fb0bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a1bf4fd00e1c1f6c4da483ea08cedfa') in 0.013903 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.695649 seconds.
+  path: Assets/ARPG Effects/Demo/ARPGDemo01.unity
+  artifactKey: Guid(d659b37d0dfa29040bb88a898042b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Demo/ARPGDemo01.unity using Guid(d659b37d0dfa29040bb88a898042b68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac580356a164fa0b2f67920860089570') in 0.009007 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008407 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1286ms)
+		BeginReloadAssembly (213ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (162ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (323ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (405ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (215ms)
+				ProcessInitializeOnLoadMethodAttributes (71ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3538 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (10.9 MB). Loaded Objects now: 4023.
+Memory consumption went from 173.4 MB to 162.5 MB.
+Total: 9.983700 ms (FindLiveObjects: 0.346400 ms CreateObjectMapping: 0.269900 ms MarkObjects: 2.714900 ms  DeleteObjects: 6.651200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 38.878121 seconds.
+  path: Assets/ARPG Effects/Models/RPGFXVerticalGlow.FBX
+  artifactKey: Guid(ef6bd6bf361ed3344b35e5887eded8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Models/RPGFXVerticalGlow.FBX using Guid(ef6bd6bf361ed3344b35e5887eded8ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92e28fe3e175be6f5f3dc9d7ea2983c6') in 0.230181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.259219 seconds.
+  path: Assets/ARPG Effects/Materials/Icons/icon_exclamation.mat
+  artifactKey: Guid(04902ca1b9f34174a8be42e618f4412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Icons/icon_exclamation.mat using Guid(04902ca1b9f34174a8be42e618f4412f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f789ab6c78a20b3f84ab8ff90d93389') in 0.429843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARPG Effects/Materials/Fire/fire_torch_natural_16x4.mat
+  artifactKey: Guid(84be7d1f63b2f764890f91c1b9e1264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Fire/fire_torch_natural_16x4.mat using Guid(84be7d1f63b2f764890f91c1b9e1264f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e61524cf614bbb70ffa26544bed57749') in 0.095856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARPG Effects/Materials/Loot/runeword02.mat
+  artifactKey: Guid(60623d1567e71854ab959253cccc817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Loot/runeword02.mat using Guid(60623d1567e71854ab959253cccc817d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e222a6728fe7d6f4aabdf547c55dac7') in 0.038041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/ARPG Effects/Materials/Loot/runeword04.mat
+  artifactKey: Guid(56479cb1a59cb82499530c6037bad0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Loot/runeword04.mat using Guid(56479cb1a59cb82499530c6037bad0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c68e16760157aba9f80e35384792114') in 0.035230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/ARPG Effects/Materials/Loot/runeword05.mat
+  artifactKey: Guid(f89f27c87d23bef42a40baf8a9797200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Loot/runeword05.mat using Guid(f89f27c87d23bef42a40baf8a9797200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8f261ef7dc349253a2d31ec0717d339') in 0.045663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/ARPG Effects/Materials/Loot/roundsmoothitem.mat
+  artifactKey: Guid(fd3f9ae7003e0e84c8d582469ca1ea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Loot/roundsmoothitem.mat using Guid(fd3f9ae7003e0e84c8d582469ca1ea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dff4daddc2a76eddbd5191fa15dca8d') in 0.047991 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ARPG Effects/Materials/Loot/runeword01.mat
+  artifactKey: Guid(11cb80ac296048647af655f2914187f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Loot/runeword01.mat using Guid(11cb80ac296048647af655f2914187f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f23631082c69d9e5d00462abc4c8ab11') in 0.041437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARPG Effects/Materials/Icons/icon_w_reward.mat
+  artifactKey: Guid(ecf58a6917942dc41ab4ee01e00f6a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Icons/icon_w_reward.mat using Guid(ecf58a6917942dc41ab4ee01e00f6a06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f2ae7e4a716ae56d139b6717bf38d9e') in 0.042880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/ARPG Effects/Materials/Loot/treasure_ray_mod.mat
+  artifactKey: Guid(9312f762616de80489ed9f3311564458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Loot/treasure_ray_mod.mat using Guid(9312f762616de80489ed9f3311564458) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cae3da8ae9ca4f064bc80d3cdaa38bfa') in 0.046446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/ARPG Effects/Materials/Loot/beam_modular.mat
+  artifactKey: Guid(5f7deb2b5ec714e448990ebb2d2d4f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Loot/beam_modular.mat using Guid(5f7deb2b5ec714e448990ebb2d2d4f03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c631fe18fe19ee19da81136cc2dfebcb') in 0.042593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.441402 seconds.
+  path: Assets/ARPG Effects/Materials/Misc/beamglow.mat
+  artifactKey: Guid(d2a3d8c55cf59d14f802db9880d38095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Misc/beamglow.mat using Guid(d2a3d8c55cf59d14f802db9880d38095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2125549b2eeace1662e56f9e65fc5a7') in 0.060089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARPG Effects/Materials/Misc/doorwayglow.mat
+  artifactKey: Guid(bc438f9924045384db5edc359878ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Misc/doorwayglow.mat using Guid(bc438f9924045384db5edc359878ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd78e6b482c533f345e710638e17b3aca') in 0.043129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/ARPG Effects/Materials/Misc/glow_basic.mat
+  artifactKey: Guid(dbd6c303c72318d45b8cc033760bc214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Misc/glow_basic.mat using Guid(dbd6c303c72318d45b8cc033760bc214) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9329fc5adb22ca8bc33fa41c54207f8d') in 0.026074 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/ARPG Effects/Materials/Misc/leveluprays.mat
+  artifactKey: Guid(723956fd057603a4e92c683ce37a679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Misc/leveluprays.mat using Guid(723956fd057603a4e92c683ce37a679f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c84acb19960bf3169ec9b660939b44') in 0.098182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/ARPG Effects/Materials/Misc/dot.mat
+  artifactKey: Guid(440d167d665405341839b8599dfd86ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Misc/dot.mat using Guid(440d167d665405341839b8599dfd86ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e762f541beb3dfa0427feaa29481daa0') in 0.033627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/ARPG Effects/Materials/Misc/cloud.mat
+  artifactKey: Guid(4e932ff0f24e3bf418a0cda7ace283c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Misc/cloud.mat using Guid(4e932ff0f24e3bf418a0cda7ace283c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1da20bdd76df21edbb09b9e38ef798') in 3.432788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/ARPG Effects/Materials/Orbs/OrbWater.mat
+  artifactKey: Guid(f108a1bdf68bf59488a357910601b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Orbs/OrbWater.mat using Guid(f108a1bdf68bf59488a357910601b8a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406a0bd418557331252414f324c204a6') in 1.329523 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/ARPG Effects/Materials/Quest Markers/questmarker_red.mat
+  artifactKey: Guid(fad7e41b51bb4fe4a8f48003838f6bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Quest Markers/questmarker_red.mat using Guid(fad7e41b51bb4fe4a8f48003838f6bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716afb28104be444d4dc07482f3c605d') in 0.065483 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ARPG Effects/Materials/Orbs/Orb.mat
+  artifactKey: Guid(e0ff1e73f69825e4c99e7268260029e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Orbs/Orb.mat using Guid(e0ff1e73f69825e4c99e7268260029e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1317bf153feea65aff42c3d148a9ba14') in 2.800285 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/ARPG Effects/Materials/Portals/portalrays.mat
+  artifactKey: Guid(3d6a31b75392daf4f93ca706bd2b1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Portals/portalrays.mat using Guid(3d6a31b75392daf4f93ca706bd2b1f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '689784fb4466826ddef59aff6cc20f85') in 0.238950 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/ARPG Effects/Materials/Quest Markers/questmarker_purple.mat
+  artifactKey: Guid(7003ac6a98f434a41b648a4e8c8ed683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Materials/Quest Markers/questmarker_purple.mat using Guid(7003ac6a98f434a41b648a4e8c8ed683) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe3d6dd13a8973493c8f21e7fed805b7') in 0.116279 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

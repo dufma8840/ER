@@ -1,0 +1,301 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+61494
+Successfully changed project path to: C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13148] Host "[IP] 192.168.1.118 [Port] 0 [Flags] 2 [Guid] 2203611520 [EditorId] 2203611520 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4UNEB7C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13148] Host "[IP] 192.168.1.118 [Port] 0 [Flags] 2 [Guid] 2203611520 [EditorId] 2203611520 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4UNEB7C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 112.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Documents/Unity3D/GameFrameWork/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.018031 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 79.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.727 seconds
+Domain Reload Profiling:
+	ReloadAssembly (727ms)
+		BeginReloadAssembly (139ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (436ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (103ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (253ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (113ms)
+				ProcessInitializeOnLoadMethodAttributes (50ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008804 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.178 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1179ms)
+		BeginReloadAssembly (141ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (926ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (475ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (77ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (217ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3609 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (10.8 MB). Loaded Objects now: 4014.
+Memory consumption went from 236.7 MB to 225.9 MB.
+Total: 7.371900 ms (FindLiveObjects: 0.317200 ms CreateObjectMapping: 0.195600 ms MarkObjects: 2.154100 ms  DeleteObjects: 4.704100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008223 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.175 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (185ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (879ms)
+			LoadAssemblies (141ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (295ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (203ms)
+				ProcessInitializeOnLoadMethodAttributes (72ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3541 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 81 unused Assets / (11.3 MB). Loaded Objects now: 4018.
+Memory consumption went from 230.4 MB to 219.1 MB.
+Total: 7.988500 ms (FindLiveObjects: 0.274700 ms CreateObjectMapping: 0.191900 ms MarkObjects: 2.131400 ms  DeleteObjects: 5.389700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 462845.548681 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_Impact_v2.prefab
+  artifactKey: Guid(91228e5d4bb78114faab80ec61075e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_Impact_v2.prefab using Guid(91228e5d4bb78114faab80ec61075e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f233eee3b38f572a8b3be7dc2eb7a79') in 0.152833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1.4.prefab
+  artifactKey: Guid(44a4f2145042cfb4c9aca0be74f31cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1.4.prefab using Guid(44a4f2145042cfb4c9aca0be74f31cb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fb202480e0baea7a0786fb979e04e7a') in 0.020470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1_Fire.prefab
+  artifactKey: Guid(7db00de82d6c7aa42a6a9280fdfc62c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1_Fire.prefab using Guid(7db00de82d6c7aa42a6a9280fdfc62c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afdc426373c533313cc13c97d83d4d63') in 0.025168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v2.prefab
+  artifactKey: Guid(c3c537557fb64d64fb5a4daf62d90157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v2.prefab using Guid(c3c537557fb64d64fb5a4daf62d90157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '660a33ff915b418d94f254fb88487bac') in 0.017672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1.2.prefab
+  artifactKey: Guid(c8cac5f8efcc8a343920258ddc6efdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1.2.prefab using Guid(c8cac5f8efcc8a343920258ddc6efdee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a73f9d92a1098eabbdd7b2b4b5bb0f') in 0.022154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_Impact_v4_Fire.prefab
+  artifactKey: Guid(75f8b06096eabed46ae9c94b551eb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_Impact_v4_Fire.prefab using Guid(75f8b06096eabed46ae9c94b551eb59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2d4be2eed76e54e437e4cb569568f3') in 0.027852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1.5.prefab
+  artifactKey: Guid(457b46d7a8410f14fb30547a12b9dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1.5.prefab using Guid(457b46d7a8410f14fb30547a12b9dadd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f1a1dc13c76d64224cc2f5086ac7dc') in 0.021663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1_Arcane.prefab
+  artifactKey: Guid(29a81c085aba1b84ca20519ecf47c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1_Arcane.prefab using Guid(29a81c085aba1b84ca20519ecf47c2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '479996464ec6e562dfbe632fe631e528') in 0.025085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1_GoldBlue.prefab
+  artifactKey: Guid(efdd524fe29971543a9f3e1810f803ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/vfxgraph_StylizedSmoke_v1_GoldBlue.prefab using Guid(efdd524fe29971543a9f3e1810f803ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a460605a81b09ce20a9aef7f7ad6987a') in 0.021583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.416639 seconds.
+  path: Assets/ARPG Effects/Sound/torch_loop.wav
+  artifactKey: Guid(c45033c33600b0e46a86899affe6aeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ARPG Effects/Sound/torch_loop.wav using Guid(c45033c33600b0e46a86899affe6aeb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dee988f4f1de811d7a83e9efc0c11a2') in 0.122746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 47.413510 seconds.
+  path: Assets/GabrielAguiarProductions/Prefabs/VFXGraphs/vfxgraph_StylizedSmoke_v2.vfx
+  artifactKey: Guid(4d968a327d5871e4f921de0a375c5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Prefabs/VFXGraphs/vfxgraph_StylizedSmoke_v2.vfx using Guid(4d968a327d5871e4f921de0a375c5523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d43de6e04faf530f9c035848fd87558') in 0.009299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.902199 seconds.
+  path: Assets/GabrielAguiarProductions/Settings/Foliage Diffusion Profile.asset
+  artifactKey: Guid(b5a7a36f73687dc42975beb0a7660c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Settings/Foliage Diffusion Profile.asset using Guid(b5a7a36f73687dc42975beb0a7660c7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7090197ca431c776ab2504d5c5ad0fd') in 0.014516 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/GabrielAguiarProductions/Settings/Skin Diffusion Profile.asset
+  artifactKey: Guid(4e7d81770e7e6bc4d94d7b911a6dba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/GabrielAguiarProductions/Settings/Skin Diffusion Profile.asset using Guid(4e7d81770e7e6bc4d94d7b911a6dba7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f193bd4e1a56f3ebafc7c46fa03014f') in 0.009289 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

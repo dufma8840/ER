@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{8A2E75CD-B7AF-218F-CF06-D6F1DF83F2A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{2AFDB89B-56FD-07A2-1EB5-F39999E49022}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "솔루션 항목", "솔루션 항목", "{C0585536-EBE4-4988-BAEC-E3D18E521645}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8A2E75CD-B7AF-218F-CF06-D6F1DF83F2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A2E75CD-B7AF-218F-CF06-D6F1DF83F2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A2E75CD-B7AF-218F-CF06-D6F1DF83F2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A2E75CD-B7AF-218F-CF06-D6F1DF83F2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AFDB89B-56FD-07A2-1EB5-F39999E49022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AFDB89B-56FD-07A2-1EB5-F39999E49022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AFDB89B-56FD-07A2-1EB5-F39999E49022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AFDB89B-56FD-07A2-1EB5-F39999E49022}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

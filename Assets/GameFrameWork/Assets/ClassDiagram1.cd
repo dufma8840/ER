@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AIContllor">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="AIContllor.E_AI_STATUS">
+        <TypeIdentifier>
+          <NewMemberFileName>Assets\Scripts\AIContllor.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAQEBBAAAGAAAAhgCAgAAAAAAAAAAAEAEBAABAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\AIContllor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimationController">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAABAAIAAAAAAAACAAAAAAAI=</HashCode>
+      <FileName>Assets\Scripts\AnimationController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Controller">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgIAACAAAEAAAAICAAAAIAIAEAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Controller.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EqmentSystem">
+    <Position X="10.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAACAABQAAAAAAEAAAAAAAAAAAAAAAUBAAgAA=</HashCode>
+      <FileName>Assets\Scripts\EqmentSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MoveZ">
+    <Position X="13" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAABAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\MoveZ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerController">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAgCAAAAAAAAAAAAAAAAAAAAAAAAKAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\PlayerController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RayWeapon">
+    <Position X="11.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAQgAAAAAAAAEAAAAAQAAAAAAAAAAgAA=</HashCode>
+      <FileName>Assets\Scripts\RayWeapon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SendBack">
+    <Position X="13" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAIAACAAQAAAQAIAAAAAgAAAAIAAAACAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\SendBack.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="맑은 고딕" Size="9" />
+</ClassDiagram>

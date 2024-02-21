@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Portal
+  - Monster
+  - heal
+  - Slot
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - targetMask
+  - Water
+  - UI
+  - Enemy
+  - Player
+  - Plane
+  - ItemBox
+  - FOV
+  - Store
+  - Escape
+  - Minimap
+  - Teleport
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

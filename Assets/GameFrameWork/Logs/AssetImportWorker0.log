@@ -1,0 +1,567 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.23f1 (213b516bf396) revision 2177873'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'ko' Physical Memory: 16318 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.23f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61494
+Successfully changed project path to: C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+C:/Users/Administrator/Documents/Unity3D/GameFrameWork
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18472] Host "[IP] 192.168.1.118 [Port] 0 [Flags] 2 [Guid] 1827032733 [EditorId] 1827032733 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4UNEB7C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18472] Host "[IP] 192.168.1.118 [Port] 0 [Flags] 2 [Guid] 1827032733 [EditorId] 1827032733 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-4UNEB7C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 109.48 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.23f1 (213b516bf396)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Administrator/Documents/Unity3D/GameFrameWork/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56764
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014674 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 92.27 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.781 seconds
+Domain Reload Profiling:
+	ReloadAssembly (782ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (522ms)
+			LoadAssemblies (125ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (123ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (304ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (92ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (138ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010001 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 93.19 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.415 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1416ms)
+		BeginReloadAssembly (174ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1104ms)
+			LoadAssemblies (143ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (321ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (555ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (107ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (75ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3609 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 86 unused Assets / (10.8 MB). Loaded Objects now: 4014.
+Memory consumption went from 236.7 MB to 225.9 MB.
+Total: 11.793600 ms (FindLiveObjects: 0.454100 ms CreateObjectMapping: 0.309800 ms MarkObjects: 3.583300 ms  DeleteObjects: 7.445200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 461430.677492 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Dagger2bcg.mat
+  artifactKey: Guid(5f6167e3c98e43549b91f961beaab14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Dagger2bcg.mat using Guid(5f6167e3c98e43549b91f961beaab14c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b26b70012eb71337580d19727b7bc5c8') in 0.177896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 389.794873 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Stone1bcg.mat
+  artifactKey: Guid(891abf03fa8149741b24cfee8f04116f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Stone1bcg.mat using Guid(891abf03fa8149741b24cfee8f04116f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8234b9a2533a72cebd446568596ef60') in 0.017434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.414243 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MagicCircle31bcg.mat
+  artifactKey: Guid(484ca6693678d664092bcb9f49cb9e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MagicCircle31bcg.mat using Guid(484ca6693678d664092bcb9f49cb9e01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7cc0a48862785a87d36f2d3715994c') in 0.019926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.367757 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crack7bcg.mat
+  artifactKey: Guid(ffbf1de599dba82428751c025f3668d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crack7bcg.mat using Guid(ffbf1de599dba82428751c025f3668d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca852141bc6a283fe284cad8c22e619b') in 0.015732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 342.775147 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fca88471ed713d8ea5fd0bfbede8475c') in 0.008892 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007782 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.163 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1164ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (884ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (382ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (82ms)
+				ProcessInitializeOnLoadAttributes (205ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3538 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 80 unused Assets / (10.9 MB). Loaded Objects now: 4058.
+Memory consumption went from 234.0 MB to 223.2 MB.
+Total: 10.063100 ms (FindLiveObjects: 0.355800 ms CreateObjectMapping: 0.483000 ms MarkObjects: 3.266800 ms  DeleteObjects: 5.956000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 111.881133 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(14148cd8c42ed7543a53f3ce8e9d45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(14148cd8c42ed7543a53f3ce8e9d45bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daedd6ae992ee4ff84bd0de049c43c5a') in 0.016352 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.163131 seconds.
+  path: Assets/Materials/Black.mat
+  artifactKey: Guid(bf35647ca1998f949971fbb7e3581b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Black.mat using Guid(bf35647ca1998f949971fbb7e3581b2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11d0c143a4fe52936a7ce0cfb4d63d64') in 0.067033 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.011319 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Administrator\Documents\Unity3D\GameFrameWork\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.170 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1170ms)
+		BeginReloadAssembly (166ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (889ms)
+			LoadAssemblies (133ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (303ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (377ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (197ms)
+				ProcessInitializeOnLoadMethodAttributes (69ms)
+				AfterProcessingInitializeOnLoad (16ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (17ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3538 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 79 unused Assets / (10.9 MB). Loaded Objects now: 4061.
+Memory consumption went from 234.1 MB to 223.2 MB.
+Total: 8.179100 ms (FindLiveObjects: 0.280300 ms CreateObjectMapping: 0.183300 ms MarkObjects: 2.380300 ms  DeleteObjects: 5.334400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 63.328951 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle8cg.mat
+  artifactKey: Guid(2e554b9a8a972ba4fb64c5ce512230f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle8cg.mat using Guid(2e554b9a8a972ba4fb64c5ce512230f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee258e22c643df67098b79fdd67caf1') in 0.103949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Distortion.mat
+  artifactKey: Guid(630ddcbab420440459087f91bcd9f4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Distortion.mat using Guid(630ddcbab420440459087f91bcd9f4c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7d79ce14f01801d57b5a875e0ff33fc') in 0.018942 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail60bcg.mat
+  artifactKey: Guid(b8ec4de64f77fdc429abf7abb17bc82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail60bcg.mat using Guid(b8ec4de64f77fdc429abf7abb17bc82b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89b7fab5187f013fbf344fdeb601c276') in 0.023650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crater14bcg.mat
+  artifactKey: Guid(0b3b87181748ffc4f9b80c25a3b18d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crater14bcg.mat using Guid(0b3b87181748ffc4f9b80c25a3b18d91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c6b438b094dd1b305849aec3b251eb6') in 0.022700 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crack5cg.mat
+  artifactKey: Guid(867bb9994073f2346bfa4a6c1b49b1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crack5cg.mat using Guid(867bb9994073f2346bfa4a6c1b49b1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '889931b7a794209e6b228d153ba1dd8c') in 0.022941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Mask39bcg.mat
+  artifactKey: Guid(014ce6ae31f11254ca42d12647bd782a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Mask39bcg.mat using Guid(014ce6ae31f11254ca42d12647bd782a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4920c12942ba6d333750a512d3a62b6') in 0.022404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Leave9bcg.mat
+  artifactKey: Guid(e21f9ecd82830b34b8f82ad9409cee9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Leave9bcg.mat using Guid(e21f9ecd82830b34b8f82ad9409cee9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfab0a98f8aad957c7bc920ff778b70') in 0.019098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail29.2cg.mat
+  artifactKey: Guid(464385e721d14ff458adeff2b5f605b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail29.2cg.mat using Guid(464385e721d14ff458adeff2b5f605b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '208b4f6796ad0605d0e51a782f5a298b') in 0.022745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crack5bcg.mat
+  artifactKey: Guid(85c062832566e9f429bc1c428036f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crack5bcg.mat using Guid(85c062832566e9f429bc1c428036f739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1387827172807888e5fb87001170d7b2') in 0.025835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Circle82cg.mat
+  artifactKey: Guid(116d7d2f482df434486404257ac15276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Circle82cg.mat using Guid(116d7d2f482df434486404257ac15276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e8559a16efe40cd65ca2305d7f33db4') in 0.022264 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail55bcg.mat
+  artifactKey: Guid(2d797bf69a09aa84fa0eea32fbf3b7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail55bcg.mat using Guid(2d797bf69a09aa84fa0eea32fbf3b7d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074a1fb8e4c404fab522d0d9df543dcf') in 0.020060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Snow4bcg.mat
+  artifactKey: Guid(35f5e6dc715494f44b17248eee5426bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Snow4bcg.mat using Guid(35f5e6dc715494f44b17248eee5426bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45d9bb89685f3ef33e5dc232eeb8454') in 0.021601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Smoke3cg.mat
+  artifactKey: Guid(fe3fbcea8e93fec468be670c547e0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Smoke3cg.mat using Guid(fe3fbcea8e93fec468be670c547e0aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c4d3b653ab50ad4014bd9b54cb3f464') in 0.020808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flare3cg.mat
+  artifactKey: Guid(a5058d915be7b8c4b874a6d45c51d72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flare3cg.mat using Guid(a5058d915be7b8c4b874a6d45c51d72b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bddecf46f32946213b8cb948906584e') in 0.016146 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crater15bcg.mat
+  artifactKey: Guid(c13f75a1159f41d4da97a1074dd90539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crater15bcg.mat using Guid(c13f75a1159f41d4da97a1074dd90539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8eb02ff473a062f04d763c61d39168b') in 0.020647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crater40bcg.mat
+  artifactKey: Guid(77b3cf30fe44bde4498632fe849e81f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crater40bcg.mat using Guid(77b3cf30fe44bde4498632fe849e81f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342110a63c106aae62bc405da3ee58ac') in 0.022967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flash7bcg.mat
+  artifactKey: Guid(72e41a54155def64eaed7ce14a43d450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flash7bcg.mat using Guid(72e41a54155def64eaed7ce14a43d450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356dcbbcff7454cb002802973f6682e6') in 0.017371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crater43bcg.mat
+  artifactKey: Guid(540c67cdbfe296f439c76e5d479aef62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crater43bcg.mat using Guid(540c67cdbfe296f439c76e5d479aef62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5eac040aef485820a7a21792a3f4cca') in 0.019353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/SmokeBCG.mat
+  artifactKey: Guid(ad117d9f7f62bb94690a823d11b394ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/SmokeBCG.mat using Guid(ad117d9f7f62bb94690a823d11b394ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aed15be6c6fd5d8a7e2e847adf219a6') in 0.017884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/EGACrystal.mat
+  artifactKey: Guid(e5469e23398769844915bee4a78915d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/EGACrystal.mat using Guid(e5469e23398769844915bee4a78915d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '305c85d025a55ee18b70909ff6fc5a27') in 0.027840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Mask41cg.mat
+  artifactKey: Guid(db31a9a9a314fe84187d7b90f8739c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Mask41cg.mat using Guid(db31a9a9a314fe84187d7b90f8739c7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b076b9558b557b6254e825040496c46') in 0.019111 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/MaskPoint1.mat
+  artifactKey: Guid(0ae5b07cb509ca04ab936aa7e86e8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/MaskPoint1.mat using Guid(0ae5b07cb509ca04ab936aa7e86e8ce9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65ddbace5b402408c194a5ef8dbead60') in 0.018645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail26bcg.mat
+  artifactKey: Guid(564274271c0dac34e96edb9a9aa5aff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail26bcg.mat using Guid(564274271c0dac34e96edb9a9aa5aff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c3fadcdcf02b8d8dbe88fd96601daf') in 0.025254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000086 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Crater18cg.mat
+  artifactKey: Guid(03a707ba10ff06b4c8b2793d666e84c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Crater18cg.mat using Guid(03a707ba10ff06b4c8b2793d666e84c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96c13c015a7476c8aaf9821e3bbbae97') in 0.022436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Smoke24bcg.mat
+  artifactKey: Guid(4b963661ff30bb44cb43409db4141e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Smoke24bcg.mat using Guid(4b963661ff30bb44cb43409db4141e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f619a32bc35442ee7d313499ea544d1a') in 0.022496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Romb3cg.mat
+  artifactKey: Guid(c10ff1214bc1c924182ac2e22d4f5cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Romb3cg.mat using Guid(c10ff1214bc1c924182ac2e22d4f5cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0eff7a55910193c1c83582b6d49616a') in 0.016434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Point19bcg.mat
+  artifactKey: Guid(0711ea139cbfdb04aa3f8bbbb67bca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Point19bcg.mat using Guid(0711ea139cbfdb04aa3f8bbbb67bca98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e83a9adc6448362081bd40b779c393') in 0.018254 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/ParticleMesh1bcg.mat
+  artifactKey: Guid(3fb4dd6717300544a8015ff660826310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/ParticleMesh1bcg.mat using Guid(3fb4dd6717300544a8015ff660826310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfbe5224df20e8d70a918c5a4a1bb0ee') in 0.018465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Gradient8bcg.mat
+  artifactKey: Guid(a4b43988f14e4c249a4f4063be038f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Gradient8bcg.mat using Guid(a4b43988f14e4c249a4f4063be038f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e8a925b08e7902d588613a20ee749f2') in 0.015606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Semicircle6bcg.mat
+  artifactKey: Guid(e10acc4b68a4e7b4eaa75206eacf0d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Semicircle6bcg.mat using Guid(e10acc4b68a4e7b4eaa75206eacf0d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb312c61fab788c30935f09532123a1') in 0.017377 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Smoke3bcg.mat
+  artifactKey: Guid(4ab4d8a07632c5046b006df23dc00374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Smoke3bcg.mat using Guid(4ab4d8a07632c5046b006df23dc00374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5a5c4102b8ef243dc3a2ba1bda5b83b') in 0.017465 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Trail22cg.mat
+  artifactKey: Guid(7154a27ca4f209047bbd02657bbbc16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Trail22cg.mat using Guid(7154a27ca4f209047bbd02657bbbc16c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46a4da9e6df4b1fed74fb97e8e3aa6e1') in 0.019348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Debris2bcg.mat
+  artifactKey: Guid(f70cc5513449bfb4cb538cf5118a4189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Debris2bcg.mat using Guid(f70cc5513449bfb4cb538cf5118a4189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6903f5dea1e659fbc12328e675e67de') in 0.020682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Fire13bcg.mat
+  artifactKey: Guid(546164282ba8044478b5f36bfeb26fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Fire13bcg.mat using Guid(546164282ba8044478b5f36bfeb26fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4edf40e0354739efc4b2bd6ac613829') in 0.019082 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Gradient17сg.mat
+  artifactKey: Guid(9789c18d41224784a9de7d60dac2b68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Gradient17сg.mat using Guid(9789c18d41224784a9de7d60dac2b68f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc9e6ab0f55ee53e930f9cbad5c6cb4') in 0.020514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Mask23bcg2.mat
+  artifactKey: Guid(38f885e4ae2b4e74b85ed321e5394417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Mask23bcg2.mat using Guid(38f885e4ae2b4e74b85ed321e5394417) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe4a92f5bc91a80d1f490cce9a52179b') in 0.017760 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Snow4cg.mat
+  artifactKey: Guid(14d86213d7eb66d488a487dc38bc79d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Snow4cg.mat using Guid(14d86213d7eb66d488a487dc38bc79d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5e2b43353dd7f934db43cd65daa262') in 0.019884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Flower2bcg.mat
+  artifactKey: Guid(730b96cc28fb1f5409b58a336056a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Flower2bcg.mat using Guid(730b96cc28fb1f5409b58a336056a0fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26fdb025376764cd9c160c8a583ea513') in 0.019928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Object3bcg.mat
+  artifactKey: Guid(b1aee1c6374851e438b41f40031f8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Object3bcg.mat using Guid(b1aee1c6374851e438b41f40031f8d29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92fd62746de68dca6c647d5209ddddc') in 0.017831 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/Fire1cg.mat
+  artifactKey: Guid(45c25ed03ce24f34ea3f7828b4449861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/Fire1cg.mat using Guid(45c25ed03ce24f34ea3f7828b4449861) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeb0cd70199921bbed0af64884cc3746') in 0.031453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Hovl Studio/HSFiles/Materials/SparkExolosion1bcg.mat
+  artifactKey: Guid(3cdb7774cf6350d4f9b279edce3d08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hovl Studio/HSFiles/Materials/SparkExolosion1bcg.mat using Guid(3cdb7774cf6350d4f9b279edce3d08be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79606ec75493a1b107533dce1c0ead46') in 0.017793 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
