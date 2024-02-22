@@ -56,17 +56,17 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\UnityTechnologies\ParticlePack\Shared\Ramps\Editor\RampAssetEditor.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\Editor\SoftEffectsFontEditor.cs" />
-    <Compile Include="Assets\GameFrameWork\Assets\SD Unity-Chan Haon Custom\Shader\Unity-chan Toon Shader Ver 2.0.6\Editor\RemoveUnusedMaterialProperties.cs" />
+    <Compile Include="Assets\Effect\UnityTechnologies\ParticlePack\Shared\Ramps\Editor\RampAssetEditor.cs" />
+    <Compile Include="Assets\Fonts\SoftEffects\Scripts\Editor\SoftEffectsFontEditor.cs" />
+    <Compile Include="Assets\Model\Framework\Assets\SD Unity-Chan Haon Custom\Shader\Unity-chan Toon Shader Ver 2.0.6\Editor\RemoveUnusedMaterialProperties.cs" />
     <Compile Include="Assets\AOSFogWar\Editor\editorFogWar.cs" />
-    <Compile Include="Assets\UnityTechnologies\ParticlePack\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\GameFrameWork\Assets\SD Unity-Chan Haon Custom\Shader\Unity-chan Toon Shader Ver 2.0.6\Editor\UTS2GUI.cs" />
-    <Compile Include="Assets\GameFrameWork\Assets\SD Unity-Chan Haon Custom\Shader\Unity-chan Toon Shader Ver 2.0.6\Editor\RemoveUnusedShaderKeywordsFromUTS2Material.cs" />
-    <Compile Include="Assets\GameFrameWork\Assets\Editor\SelectGameObjectsWithMissingScripts.cs" />
-    <Compile Include="Assets\SoftEffects\Scripts\Editor\SoftEffectsEditor.cs" />
-    <Compile Include="Assets\GameFrameWork\Assets\SD Unity-Chan Haon Custom\Shader\Unity-chan Toon Shader Ver 2.0.6\Editor\CopyMaterialParameter.cs" />
-    <Compile Include="Assets\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
+    <Compile Include="Assets\Effect\UnityTechnologies\ParticlePack\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
+    <Compile Include="Assets\Model\Framework\Assets\SD Unity-Chan Haon Custom\Shader\Unity-chan Toon Shader Ver 2.0.6\Editor\UTS2GUI.cs" />
+    <Compile Include="Assets\Model\Framework\Assets\SD Unity-Chan Haon Custom\Shader\Unity-chan Toon Shader Ver 2.0.6\Editor\RemoveUnusedShaderKeywordsFromUTS2Material.cs" />
+    <Compile Include="Assets\Model\Framework\Assets\Editor\SelectGameObjectsWithMissingScripts.cs" />
+    <Compile Include="Assets\Fonts\SoftEffects\Scripts\Editor\SoftEffectsEditor.cs" />
+    <Compile Include="Assets\Model\Framework\Assets\SD Unity-Chan Haon Custom\Shader\Unity-chan Toon Shader Ver 2.0.6\Editor\CopyMaterialParameter.cs" />
+    <Compile Include="Assets\Model\unity-chan!\Unity-chan! Model\Editor\CreateLocatorHere.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
