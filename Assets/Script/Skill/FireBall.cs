@@ -22,7 +22,6 @@ public class FireBall : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
         Vector3 vPos = this.transform.position;
         float Dist = Vector3.Distance(Magic.GetInstance().vStart, vPos);
         MonStat montarget = target.gameObject.GetComponent<MonStat>();
@@ -44,6 +43,7 @@ public class FireBall : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+
     }
 
     public void Move()

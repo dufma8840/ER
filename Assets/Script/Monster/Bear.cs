@@ -24,7 +24,7 @@ public class Bear : MonoBehaviour
     float chaseDistance = 7f;
     float attackDistance = 2.5f;
     float reChaseDistance = 3f;
-    public Transform Target;
+    public Transform target;
     float attackDelay = 2f;
     [SerializeField] State Ecurrent = State.Idle;
     [SerializeField] Action Acurrent = Action.Idle;
@@ -36,6 +36,7 @@ public class Bear : MonoBehaviour
 
     public void Save()
     {
+        target = null;
         stat._IsMove = true;
         stat._IsAttack = true;
         stat._IsReturn = false;
@@ -53,7 +54,7 @@ public class Bear : MonoBehaviour
         bearani = GetComponent<Animator>();
         stat = GetComponent<MonStat>();
 ;       sPos = this.transform.position;
-        Target = null;
+        target = null;
         returnTime = 3.5f;
         ChangState(State.Idle, Action.Idle);
     }
@@ -116,10 +117,9 @@ public class Bear : MonoBehaviour
 
     void ChaseState()
     {
-        if(Target != null)
+        if(target != null)
         {
-            //몬스터가 공격 가능 거리 안으로 들어가면 공격 상태
-            if (GetDistanceFromPlayer() < attackDistance)
+            if (GetDistanceFromPlayer() <= attackDistance)
             {
                 if (stat._IsAttack)
                 {
@@ -136,14 +136,14 @@ public class Bear : MonoBehaviour
                 if (stat._IsMove)
                 {
                     ChangAni(Action.Chase);
-                    nav.SetDestination(Target.position);
-                    nav.stoppingDistance = 3;
+                    nav.SetDestination(target.position);
+                    nav.stoppingDistance = 2.5f;
                 }
                 if (!stat._IsMove)
                 {
                     ChangAni(Action.Idle);
                 }
-            } // 몬스터의 목표 위치를 플레이어의 위치로 설정
+            }
         }
     }
 
@@ -169,9 +169,9 @@ public class Bear : MonoBehaviour
    
     float GetDistanceFromPlayer()
     {
-        if(Target != null)
+        if(target != null)
         {
-            float distance = Vector3.Distance(transform.position, Target.position);
+            float distance = Vector3.Distance(transform.position, target.position);
             return distance;
         }
         else
@@ -186,8 +186,8 @@ public class Bear : MonoBehaviour
         Collider[] TargetCollider = Physics.OverlapSphere(transform.position, Range, mask);
         for (int i = 0; i < TargetCollider.Length; i++)
         {
-            Target = GameObject.Find("Player").transform;
-            Target = TargetCollider[0].transform;
+            target = GameObject.Find("Player").transform;
+            target = TargetCollider[0].transform;
             dist = Vector3.Distance(TargetCollider[0].transform.position, this.transform.position);
         }
     }
@@ -206,7 +206,7 @@ public class Bear : MonoBehaviour
         }
         if (stat._IsReturn == true)
         {
-            Target = null;
+            target = null;
             nav.stoppingDistance = 0;
             nav.SetDestination(sPos);
             ChangState(State.Idle, Action.Chase);
@@ -234,7 +234,6 @@ public class Bear : MonoBehaviour
                 if (collider.CompareTag("Player"))
                 {
                     bearani.SetTrigger("IsAttack");
-                   // transform.LookAt(Target);
                     Stat targetHP = collider.GetComponent<Stat>();
                     if (targetHP != null)
                     {

@@ -31,7 +31,7 @@ public class Mino : MonoBehaviour
     float chaseDistance = 7f; 
     float attackDistance = 1.5f; 
     float reChaseDistance = 2;
-    public Transform Target;
+    public Transform target;
     float attackDelay = 2f; 
     [SerializeField] State Ecurrent = State.Idle;
     [SerializeField] Action Acurrent = Action.Idle;
@@ -45,6 +45,7 @@ public class Mino : MonoBehaviour
 
     public void Save()
     {
+        target = null;
         stat._IsMove = true;
         stat._IsAttack = true;
         stat._IsReturn = false;
@@ -62,7 +63,7 @@ public class Mino : MonoBehaviour
         stat = GetComponent<MonStat>();
         sPos = this.transform.position;
         sAngel = this.transform.rotation;
-        Target = null;
+        target = null;
         ChangState(State.Idle, Action.Idle);
     }
     public void ChangAni(Action action)
@@ -96,7 +97,7 @@ public class Mino : MonoBehaviour
     }
     public void UpdateState()
     {
-        if (Target != null || stat.hp < stat.hpMax)
+        if (target != null || stat.hp < stat.hpMax)
         {
             switch (Ecurrent)
             {
@@ -130,7 +131,7 @@ public class Mino : MonoBehaviour
 
     void ChaseState()
     {
-        if (Target != null)
+        if (target != null)
         {
             //몬스터가 공격 가능 거리 안으로 들어가면 공격 상태
             if (GetDistanceFromPlayer() < attackDistance)
@@ -139,7 +140,7 @@ public class Mino : MonoBehaviour
                 {
                     ChangState(State.Attack, Action.Idle);
                     Ecurrent = State.Attack;
-                    transform.LookAt(Target.transform);
+                    transform.LookAt(target.transform);
                 }
                 else
                 {
@@ -151,7 +152,7 @@ public class Mino : MonoBehaviour
                 if (stat._IsMove)
                 {
                     ChangAni(Action.Chase);
-                    nav.SetDestination(Target.position);
+                    nav.SetDestination(target.position);
                     nav.stoppingDistance = 1.5f;
                 }
                 if(!stat._IsMove)
@@ -174,7 +175,7 @@ public class Mino : MonoBehaviour
             if (stat._IsAttack)
             {
                 StartCoroutine(Attack());
-                transform.LookAt(Target.transform);
+                transform.LookAt(target.transform);
               
 
             }
@@ -186,9 +187,9 @@ public class Mino : MonoBehaviour
     }
     float GetDistanceFromPlayer()
     {
-        if (Target != null)
+        if (target != null)
         {
-            float distance = Vector3.Distance(transform.position, Target.position);
+            float distance = Vector3.Distance(transform.position, target.position);
             return distance;
         }
         else
@@ -204,8 +205,8 @@ public class Mino : MonoBehaviour
         Collider[] TargetCollider = Physics.OverlapSphere(transform.position, Range, mask);
         for (int i = 0; i < TargetCollider.Length; i++)
         {
-            Target = GameObject.Find("Player").transform;
-            Target = TargetCollider[0].transform;
+            target = GameObject.Find("Player").transform;
+            target = TargetCollider[0].transform;
             dist = Vector3.Distance(TargetCollider[0].transform.position, this.transform.position);
         }
     }
@@ -224,7 +225,7 @@ public class Mino : MonoBehaviour
         }
         if (stat._IsReturn == true)
         {
-            Target = null;
+            target = null;
             nav.stoppingDistance = 0;
             nav.SetDestination(sPos);
             ChangState(State.Idle, Action.Chase);

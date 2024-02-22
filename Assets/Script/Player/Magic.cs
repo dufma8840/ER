@@ -18,6 +18,7 @@ public class Magic : MonoBehaviour
     private void Awake()
     {
         Instance = this;
+      
         fireballSource = GetComponent<AudioSource>();
     }
 
@@ -27,6 +28,8 @@ public class Magic : MonoBehaviour
     }
     void Start()
     {
+        queUsePool.Clear();
+        queDisablePool.Clear();
         listFireball = new List<FireBall>(5);
         for (int i = 0; i < 5; i++)
         {
@@ -36,23 +39,34 @@ public class Magic : MonoBehaviour
             listFireball.Add(cFireball);
             queDisablePool.Enqueue(cFireball);
         }
+
     }
+
     public void Shot(GameObject Target,Stat master)
     {
         if (queDisablePool.Count >= 0)
         {
             vStart = this.transform.position;
             FireBall fireball = queDisablePool.Dequeue();
+            Debug.Log(queDisablePool.Count);
             queUsePool.Enqueue(fireball);
-            fireball.transform.position = this.transform.position;
-            fireball.master = master;
-            fireball.target = Target;
-            fireballSource.Play();
-            if (fireball.target != null)
+            if (fireball != null)
             {
-                fireball.Move();
-                fireball.transform.Translate(Target.transform.position);
                 fireball.transform.position = this.transform.position;
+                fireball.master = master;
+                fireball.target = Target;
+                fireballSource.Play();
+                if (fireball.target != null)
+                {
+                    fireball.Move();
+                    fireball.transform.Translate(Target.transform.position);
+                    fireball.transform.position = this.transform.position;
+                }
+            }
+            if (fireball == null)
+
+            {
+                Debug.LogWarning("fireball is null!");
             }
         }
     }
